@@ -1,6 +1,6 @@
 package lv.acodemy;
 
-public class calculator {
+public class Calculator {
     private String name;
     private String model;
 
@@ -20,7 +20,7 @@ public class calculator {
         this.model = model;
     }
 
-    public calculator(String name, String model) {
+    public Calculator(String name, String model) {
         this.name = name;
         this.model = model;
     }
@@ -38,5 +38,4 @@ public class calculator {
     public int multiply(int x, int y) {
         return x * y;
     }
-
 }
